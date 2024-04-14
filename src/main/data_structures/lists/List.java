@@ -17,5 +17,8 @@ public interface List<T> {
     boolean contains(T element);
     T search(int index);
 
+    void replace(T toBeReplacedElement, T newElement);
+    void replace(int index, T element);
+
     String toString();
 }
